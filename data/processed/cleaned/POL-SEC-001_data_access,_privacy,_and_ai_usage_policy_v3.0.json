@@ -1,0 +1,1703 @@
+{
+  "document_info": {
+    "source_file": "POL-SEC-001_data_access,_privacy,_and_ai_usage_policy_v3.0.pdf",
+    "source_path": "C:\\Users\\Sateesh Kashiraju\\Desktop\\TechConsultingTraining\\Projects\\Multi_Agent\\asset-servicing-multiagent-system\\bnym-asset-servicing-copilot\\data\\pdfs\\policies\\POL-SEC-001_data_access,_privacy,_and_ai_usage_policy_v3.0.pdf",
+    "file_extension": ".pdf",
+    "page_count": 2,
+    "paragraph_count": 122,
+    "table_count": 6,
+    "document_intelligence_model": "prebuilt-layout",
+    "processing_stage": "cleaned",
+    "cleaned_page_count": 2,
+    "cleaned_paragraph_count": 118,
+    "cleaned_table_count": 6
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_count": 72,
+      "text": "Data Access, Privacy, and AI Usage Policy Policy ID POL-SEC-001 Version 3.0 Status ACTIVE Effective Date 2026-01-01 Review / End Date 2026-09-30 Supersedes 2.0 Policy Owner Information Security and Data Governance Business Unit ENTERPRISE Jurisdiction GLOBAL Classification INTERNAL CONFIDENTIAL Access Scope ROLE_BASED Synthetic Document YES Document control: The applicable policy is the version whose effective-date range contains the business date and whose status is ACTIVE. A higher future version must not be used for current decisions. 1. Policy Objective This policy supports production-grade asset-servicing controls and AI-assisted operations. Decisions must be grounded in authorized sources, linked to the correct business date, and preserved with sufficient evidence for audit and independent review. 2. Purpose and Scope Defines requirements for confidential data, customer information, AI-assisted processing, logging, masking, and controlled system access. Every material action must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable. 3. Sensitive Data Handling Mask or tokenize direct identifiers and restricted fields before non-essential prompts, traces, analytics, and lower environments. Every material action must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable. 4. AI and Tool Access Agents must use governed interfaces, least privilege, approved schemas, input validation, authorization, and immutable audit logs. Every material action must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable. 5. Monitoring and Retention Log security events, model interactions, tool calls, and policy decisions under approved retention and access rules. Every material action must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable. 6. Current Version-Specific Rules Control Requirement in v3.0 PII masking Required before non-essential LLM prompts and observability traces Privileged access review Quarterly AI trace redaction Required before external tracing Audit retention 7 years Control principle: live operational status comes from governed source-system tools; policy documents provide rules, required actions, and escalation criteria. Required Evidence and Data Controls Area Minimum production requirement Identity Authenticated user, role, business unit, and permitted account/client scope Source data Current timestamp, source-system identifier, validated business keys, and freshness status Policy evidence Policy ID, applicable version, effective range, section, and citation location AI processing PII masking result, prompt version, model/deployment, retrieval set, and confidence signals Audit Trace ID, tool-call records, response outcome, escalation decision, and reviewer where needed Key Definitions Applicable version: the authorized version active for the business date. Governed tool: an approved interface that validates identity, permissions, parameters, and audit evidence before reading an operational system. Material case: an item whose amount, age, deadline, client impact, repeated occurrence, or regulatory sensitivity requires enhanced review.",
+      "lines": [
+        {
+          "line_number": 1,
+          "content": "Data Access, Privacy, and AI Usage Policy"
+        },
+        {
+          "line_number": 2,
+          "content": "Policy ID"
+        },
+        {
+          "line_number": 3,
+          "content": "POL-SEC-001"
+        },
+        {
+          "line_number": 4,
+          "content": "Version"
+        },
+        {
+          "line_number": 5,
+          "content": "3.0"
+        },
+        {
+          "line_number": 6,
+          "content": "Status"
+        },
+        {
+          "line_number": 7,
+          "content": "ACTIVE"
+        },
+        {
+          "line_number": 8,
+          "content": "Effective Date"
+        },
+        {
+          "line_number": 9,
+          "content": "2026-01-01"
+        },
+        {
+          "line_number": 10,
+          "content": "Review / End Date"
+        },
+        {
+          "line_number": 11,
+          "content": "2026-09-30"
+        },
+        {
+          "line_number": 12,
+          "content": "Supersedes"
+        },
+        {
+          "line_number": 13,
+          "content": "2.0"
+        },
+        {
+          "line_number": 14,
+          "content": "Policy Owner"
+        },
+        {
+          "line_number": 15,
+          "content": "Information Security and Data Governance"
+        },
+        {
+          "line_number": 16,
+          "content": "Business Unit"
+        },
+        {
+          "line_number": 17,
+          "content": "ENTERPRISE"
+        },
+        {
+          "line_number": 18,
+          "content": "Jurisdiction"
+        },
+        {
+          "line_number": 19,
+          "content": "GLOBAL"
+        },
+        {
+          "line_number": 20,
+          "content": "Classification"
+        },
+        {
+          "line_number": 21,
+          "content": "INTERNAL CONFIDENTIAL"
+        },
+        {
+          "line_number": 22,
+          "content": "Access Scope"
+        },
+        {
+          "line_number": 23,
+          "content": "ROLE_BASED"
+        },
+        {
+          "line_number": 24,
+          "content": "Synthetic Document"
+        },
+        {
+          "line_number": 25,
+          "content": "YES"
+        },
+        {
+          "line_number": 26,
+          "content": "Document control: The applicable policy is the version whose effective-date range contains the business date and whose status is ACTIVE. A higher"
+        },
+        {
+          "line_number": 27,
+          "content": "future version must not be used for current decisions."
+        },
+        {
+          "line_number": 28,
+          "content": "1. Policy Objective"
+        },
+        {
+          "line_number": 29,
+          "content": "This policy supports production-grade asset-servicing controls and AI-assisted operations. Decisions must be grounded in authorized sources, linked to"
+        },
+        {
+          "line_number": 30,
+          "content": "the correct business date, and preserved with sufficient evidence for audit and independent review."
+        },
+        {
+          "line_number": 31,
+          "content": "2. Purpose and Scope"
+        },
+        {
+          "line_number": 32,
+          "content": "Defines requirements for confidential data, customer information, AI-assisted processing, logging, masking, and controlled system access. Every material"
+        },
+        {
+          "line_number": 33,
+          "content": "action must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable."
+        },
+        {
+          "line_number": 34,
+          "content": "3. Sensitive Data Handling"
+        },
+        {
+          "line_number": 35,
+          "content": "Mask or tokenize direct identifiers and restricted fields before non-essential prompts, traces, analytics, and lower environments. Every material action"
+        },
+        {
+          "line_number": 36,
+          "content": "must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable."
+        },
+        {
+          "line_number": 37,
+          "content": "4. AI and Tool Access"
+        },
+        {
+          "line_number": 38,
+          "content": "Agents must use governed interfaces, least privilege, approved schemas, input validation, authorization, and immutable audit logs. Every material action"
+        },
+        {
+          "line_number": 39,
+          "content": "must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable."
+        },
+        {
+          "line_number": 40,
+          "content": "5. Monitoring and Retention"
+        },
+        {
+          "line_number": 41,
+          "content": "Log security events, model interactions, tool calls, and policy decisions under approved retention and access rules. Every material action must include"
+        },
+        {
+          "line_number": 42,
+          "content": "user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable."
+        },
+        {
+          "line_number": 43,
+          "content": "6. Current Version-Specific Rules"
+        },
+        {
+          "line_number": 44,
+          "content": "Control"
+        },
+        {
+          "line_number": 45,
+          "content": "Requirement in v3.0"
+        },
+        {
+          "line_number": 46,
+          "content": "PII masking"
+        },
+        {
+          "line_number": 47,
+          "content": "Required before non-essential LLM prompts and observability traces"
+        },
+        {
+          "line_number": 48,
+          "content": "Privileged access review"
+        },
+        {
+          "line_number": 49,
+          "content": "Quarterly"
+        },
+        {
+          "line_number": 50,
+          "content": "AI trace redaction"
+        },
+        {
+          "line_number": 51,
+          "content": "Required before external tracing"
+        },
+        {
+          "line_number": 52,
+          "content": "Audit retention"
+        },
+        {
+          "line_number": 53,
+          "content": "7 years"
+        },
+        {
+          "line_number": 54,
+          "content": "Control principle: live operational status comes from governed source-system tools; policy documents provide rules, required actions, and"
+        },
+        {
+          "line_number": 55,
+          "content": "escalation criteria."
+        },
+        {
+          "line_number": 56,
+          "content": "Required Evidence and Data Controls"
+        },
+        {
+          "line_number": 57,
+          "content": "Area"
+        },
+        {
+          "line_number": 58,
+          "content": "Minimum production requirement"
+        },
+        {
+          "line_number": 59,
+          "content": "Identity"
+        },
+        {
+          "line_number": 60,
+          "content": "Authenticated user, role, business unit, and permitted account/client scope"
+        },
+        {
+          "line_number": 61,
+          "content": "Source data"
+        },
+        {
+          "line_number": 62,
+          "content": "Current timestamp, source-system identifier, validated business keys, and freshness status"
+        },
+        {
+          "line_number": 63,
+          "content": "Policy evidence"
+        },
+        {
+          "line_number": 64,
+          "content": "Policy ID, applicable version, effective range, section, and citation location"
+        },
+        {
+          "line_number": 65,
+          "content": "AI processing"
+        },
+        {
+          "line_number": 66,
+          "content": "PII masking result, prompt version, model/deployment, retrieval set, and confidence signals"
+        },
+        {
+          "line_number": 67,
+          "content": "Audit"
+        },
+        {
+          "line_number": 68,
+          "content": "Trace ID, tool-call records, response outcome, escalation decision, and reviewer where needed"
+        },
+        {
+          "line_number": 69,
+          "content": "Key Definitions"
+        },
+        {
+          "line_number": 70,
+          "content": "Applicable version: the authorized version active for the business date. Governed tool: an approved interface that validates identity, permissions, parameters, and"
+        },
+        {
+          "line_number": 71,
+          "content": "audit evidence before reading an operational system. Material case: an item whose amount, age, deadline, client impact, repeated occurrence, or regulatory"
+        },
+        {
+          "line_number": 72,
+          "content": "sensitivity requires enhanced review."
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "line_count": 64,
+      "text": "Operational Control Flow Authenticate and authorize > Retrieve live operational data > Resolve current policy version > Validate evidence and risk > Respond or escalate Roles and Responsibilities Role Primary responsibility Operations Analyst Investigate assigned items, validate evidence, document actions, and escalate when required. Team Lead / Checker Review sensitive or high-value actions, validate policy use, and approve controlled overrides. Policy Control Maintain versions, effective dates, interpretation guidance, and formal exceptions. AI / Technology Platform Maintain access controls, approved integrations, retrieval quality, monitoring, and failure handling. Information Security Define masking, secrets, privileged access, incident response, and monitoring requirements. Audit, Privacy, and AI Requirements - Record policy ID, version, page or section, query timestamp, user identity, access scope, and decision outcome. - For live lookups, record MCP tool name, approved parameters, authorization result, response timestamp, and source-system reference. - Mask PII and confidential fields in prompts and traces unless the value is explicitly required and permitted for the task. - Scope semantic-cache entries by user authorization, business unit, policy version, and effective date; invalidate them when policy status changes. - Route conflicting evidence, unavailable tools, restricted access, and low-confidence or high-risk cases to human review. Test Scenarios Scenario Expected behavior Older policy chunk ranks higher Use the applicable ACTIVE version and suppress superseded guidance. Future policy has highest version Do not use it before its effective date. User lacks account permission Return an authorization-safe response without restricted details. Cached answer uses older version Bypass or invalidate cache and regenerate with current policy. Live status differs from document example Use governed live data for status and policy only for rules. Monitoring and Acceptance Criteria Control metric Expected production behavior Policy-version accuracy Current applicable version selected for the business date; future and superseded versions excluded Retrieval quality Relevant section appears in top results and citations match returned evidence Tool governance Every live lookup is authorized, parameter-validated, rate-limited, and auditable Privacy Sensitive values are minimized and redacted from cache, prompts, traces, and logs Response quality Answer is grounded, cites evidence, distinguishes live facts from policy, and escalates uncertainty Implementation Notes for the AI Copilot The Retrieval Agent searches approved policy content using hybrid retrieval and metadata filters. The Policy Validation Agent confirms status, effective dates, and conflicts. Operational agents use MCP tools for current records. The Orchestrator aggregates all agent outputs and sends one structured evidence package to the Response Module for grounded answer generation, citations, masking, confidence assessment, and escalation. End of controlled synthetic document. Structured for OCR/layout extraction, document-aware chunking, metadata enrichment, version-aware retrieval, citations, PII controls, semantic-cache invalidation, and policy validation.",
+      "lines": [
+        {
+          "line_number": 1,
+          "content": "Operational Control Flow"
+        },
+        {
+          "line_number": 2,
+          "content": "Authenticate and"
+        },
+        {
+          "line_number": 3,
+          "content": "authorize"
+        },
+        {
+          "line_number": 4,
+          "content": ">"
+        },
+        {
+          "line_number": 5,
+          "content": "Retrieve live operational"
+        },
+        {
+          "line_number": 6,
+          "content": "data"
+        },
+        {
+          "line_number": 7,
+          "content": ">"
+        },
+        {
+          "line_number": 8,
+          "content": "Resolve current policy"
+        },
+        {
+          "line_number": 9,
+          "content": "version"
+        },
+        {
+          "line_number": 10,
+          "content": ">"
+        },
+        {
+          "line_number": 11,
+          "content": "Validate evidence and risk"
+        },
+        {
+          "line_number": 12,
+          "content": ">"
+        },
+        {
+          "line_number": 13,
+          "content": "Respond or escalate"
+        },
+        {
+          "line_number": 14,
+          "content": "Roles and Responsibilities"
+        },
+        {
+          "line_number": 15,
+          "content": "Role"
+        },
+        {
+          "line_number": 16,
+          "content": "Primary responsibility"
+        },
+        {
+          "line_number": 17,
+          "content": "Operations Analyst"
+        },
+        {
+          "line_number": 18,
+          "content": "Investigate assigned items, validate evidence, document actions, and escalate when required."
+        },
+        {
+          "line_number": 19,
+          "content": "Team Lead / Checker"
+        },
+        {
+          "line_number": 20,
+          "content": "Review sensitive or high-value actions, validate policy use, and approve controlled overrides."
+        },
+        {
+          "line_number": 21,
+          "content": "Policy Control"
+        },
+        {
+          "line_number": 22,
+          "content": "Maintain versions, effective dates, interpretation guidance, and formal exceptions."
+        },
+        {
+          "line_number": 23,
+          "content": "AI / Technology Platform"
+        },
+        {
+          "line_number": 24,
+          "content": "Maintain access controls, approved integrations, retrieval quality, monitoring, and failure handling."
+        },
+        {
+          "line_number": 25,
+          "content": "Information Security"
+        },
+        {
+          "line_number": 26,
+          "content": "Define masking, secrets, privileged access, incident response, and monitoring requirements."
+        },
+        {
+          "line_number": 27,
+          "content": "Audit, Privacy, and AI Requirements"
+        },
+        {
+          "line_number": 28,
+          "content": "- Record policy ID, version, page or section, query timestamp, user identity, access scope, and decision outcome."
+        },
+        {
+          "line_number": 29,
+          "content": "- For live lookups, record MCP tool name, approved parameters, authorization result, response timestamp, and source-system reference."
+        },
+        {
+          "line_number": 30,
+          "content": "- Mask PII and confidential fields in prompts and traces unless the value is explicitly required and permitted for the task."
+        },
+        {
+          "line_number": 31,
+          "content": "- Scope semantic-cache entries by user authorization, business unit, policy version, and effective date; invalidate them when policy status changes."
+        },
+        {
+          "line_number": 32,
+          "content": "- Route conflicting evidence, unavailable tools, restricted access, and low-confidence or high-risk cases to human review."
+        },
+        {
+          "line_number": 33,
+          "content": "Test Scenarios"
+        },
+        {
+          "line_number": 34,
+          "content": "Scenario"
+        },
+        {
+          "line_number": 35,
+          "content": "Expected behavior"
+        },
+        {
+          "line_number": 36,
+          "content": "Older policy chunk ranks higher"
+        },
+        {
+          "line_number": 37,
+          "content": "Use the applicable ACTIVE version and suppress superseded guidance."
+        },
+        {
+          "line_number": 38,
+          "content": "Future policy has highest version"
+        },
+        {
+          "line_number": 39,
+          "content": "Do not use it before its effective date."
+        },
+        {
+          "line_number": 40,
+          "content": "User lacks account permission"
+        },
+        {
+          "line_number": 41,
+          "content": "Return an authorization-safe response without restricted details."
+        },
+        {
+          "line_number": 42,
+          "content": "Cached answer uses older version"
+        },
+        {
+          "line_number": 43,
+          "content": "Bypass or invalidate cache and regenerate with current policy."
+        },
+        {
+          "line_number": 44,
+          "content": "Live status differs from document example"
+        },
+        {
+          "line_number": 45,
+          "content": "Use governed live data for status and policy only for rules."
+        },
+        {
+          "line_number": 46,
+          "content": "Monitoring and Acceptance Criteria"
+        },
+        {
+          "line_number": 47,
+          "content": "Control metric"
+        },
+        {
+          "line_number": 48,
+          "content": "Expected production behavior"
+        },
+        {
+          "line_number": 49,
+          "content": "Policy-version accuracy"
+        },
+        {
+          "line_number": 50,
+          "content": "Current applicable version selected for the business date; future and superseded versions excluded"
+        },
+        {
+          "line_number": 51,
+          "content": "Retrieval quality"
+        },
+        {
+          "line_number": 52,
+          "content": "Relevant section appears in top results and citations match returned evidence"
+        },
+        {
+          "line_number": 53,
+          "content": "Tool governance"
+        },
+        {
+          "line_number": 54,
+          "content": "Every live lookup is authorized, parameter-validated, rate-limited, and auditable"
+        },
+        {
+          "line_number": 55,
+          "content": "Privacy"
+        },
+        {
+          "line_number": 56,
+          "content": "Sensitive values are minimized and redacted from cache, prompts, traces, and logs"
+        },
+        {
+          "line_number": 57,
+          "content": "Response quality"
+        },
+        {
+          "line_number": 58,
+          "content": "Answer is grounded, cites evidence, distinguishes live facts from policy, and escalates uncertainty"
+        },
+        {
+          "line_number": 59,
+          "content": "Implementation Notes for the AI Copilot"
+        },
+        {
+          "line_number": 60,
+          "content": "The Retrieval Agent searches approved policy content using hybrid retrieval and metadata filters. The Policy Validation Agent confirms status, effective dates, and"
+        },
+        {
+          "line_number": 61,
+          "content": "conflicts. Operational agents use MCP tools for current records. The Orchestrator aggregates all agent outputs and sends one structured evidence package to the"
+        },
+        {
+          "line_number": 62,
+          "content": "Response Module for grounded answer generation, citations, masking, confidence assessment, and escalation."
+        },
+        {
+          "line_number": 63,
+          "content": "End of controlled synthetic document. Structured for OCR/layout extraction, document-aware chunking, metadata enrichment, version-aware retrieval, citations, PII controls,"
+        },
+        {
+          "line_number": 64,
+          "content": "semantic-cache invalidation, and policy validation."
+        }
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "role": "title",
+      "content": "Data Access, Privacy, and AI Usage Policy"
+    },
+    {
+      "paragraph_number": 2,
+      "role": "body",
+      "content": "Policy ID"
+    },
+    {
+      "paragraph_number": 3,
+      "role": "body",
+      "content": "POL-SEC-001"
+    },
+    {
+      "paragraph_number": 4,
+      "role": "body",
+      "content": "Version"
+    },
+    {
+      "paragraph_number": 5,
+      "role": "body",
+      "content": "3.0"
+    },
+    {
+      "paragraph_number": 6,
+      "role": "body",
+      "content": "Status"
+    },
+    {
+      "paragraph_number": 7,
+      "role": "body",
+      "content": "ACTIVE"
+    },
+    {
+      "paragraph_number": 8,
+      "role": "body",
+      "content": "Effective Date"
+    },
+    {
+      "paragraph_number": 9,
+      "role": "body",
+      "content": "2026-01-01"
+    },
+    {
+      "paragraph_number": 10,
+      "role": "body",
+      "content": "Review / End Date"
+    },
+    {
+      "paragraph_number": 11,
+      "role": "body",
+      "content": "2026-09-30"
+    },
+    {
+      "paragraph_number": 12,
+      "role": "body",
+      "content": "Supersedes"
+    },
+    {
+      "paragraph_number": 13,
+      "role": "body",
+      "content": "2.0"
+    },
+    {
+      "paragraph_number": 14,
+      "role": "body",
+      "content": "Policy Owner"
+    },
+    {
+      "paragraph_number": 15,
+      "role": "body",
+      "content": "Information Security and Data Governance"
+    },
+    {
+      "paragraph_number": 16,
+      "role": "body",
+      "content": "Business Unit"
+    },
+    {
+      "paragraph_number": 17,
+      "role": "body",
+      "content": "ENTERPRISE"
+    },
+    {
+      "paragraph_number": 18,
+      "role": "body",
+      "content": "Jurisdiction"
+    },
+    {
+      "paragraph_number": 19,
+      "role": "body",
+      "content": "GLOBAL"
+    },
+    {
+      "paragraph_number": 20,
+      "role": "body",
+      "content": "Classification"
+    },
+    {
+      "paragraph_number": 21,
+      "role": "body",
+      "content": "INTERNAL CONFIDENTIAL"
+    },
+    {
+      "paragraph_number": 22,
+      "role": "body",
+      "content": "Access Scope"
+    },
+    {
+      "paragraph_number": 23,
+      "role": "body",
+      "content": "ROLE_BASED"
+    },
+    {
+      "paragraph_number": 24,
+      "role": "body",
+      "content": "Synthetic Document"
+    },
+    {
+      "paragraph_number": 25,
+      "role": "body",
+      "content": "YES"
+    },
+    {
+      "paragraph_number": 26,
+      "role": "body",
+      "content": "Document control: The applicable policy is the version whose effective-date range contains the business date and whose status is ACTIVE. A higher future version must not be used for current decisions."
+    },
+    {
+      "paragraph_number": 27,
+      "role": "sectionHeading",
+      "content": "1. Policy Objective"
+    },
+    {
+      "paragraph_number": 28,
+      "role": "body",
+      "content": "This policy supports production-grade asset-servicing controls and AI-assisted operations. Decisions must be grounded in authorized sources, linked to the correct business date, and preserved with sufficient evidence for audit and independent review."
+    },
+    {
+      "paragraph_number": 29,
+      "role": "sectionHeading",
+      "content": "2. Purpose and Scope"
+    },
+    {
+      "paragraph_number": 30,
+      "role": "body",
+      "content": "Defines requirements for confidential data, customer information, AI-assisted processing, logging, masking, and controlled system access. Every material action must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable."
+    },
+    {
+      "paragraph_number": 31,
+      "role": "sectionHeading",
+      "content": "3. Sensitive Data Handling"
+    },
+    {
+      "paragraph_number": 32,
+      "role": "body",
+      "content": "Mask or tokenize direct identifiers and restricted fields before non-essential prompts, traces, analytics, and lower environments. Every material action must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable."
+    },
+    {
+      "paragraph_number": 33,
+      "role": "sectionHeading",
+      "content": "4. AI and Tool Access"
+    },
+    {
+      "paragraph_number": 34,
+      "role": "body",
+      "content": "Agents must use governed interfaces, least privilege, approved schemas, input validation, authorization, and immutable audit logs. Every material action must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable."
+    },
+    {
+      "paragraph_number": 35,
+      "role": "sectionHeading",
+      "content": "5. Monitoring and Retention"
+    },
+    {
+      "paragraph_number": 36,
+      "role": "body",
+      "content": "Log security events, model interactions, tool calls, and policy decisions under approved retention and access rules. Every material action must include user identity, source-system reference, policy citation, timestamp, and escalation evidence when applicable."
+    },
+    {
+      "paragraph_number": 37,
+      "role": "sectionHeading",
+      "content": "6. Current Version-Specific Rules"
+    },
+    {
+      "paragraph_number": 38,
+      "role": "body",
+      "content": "Control"
+    },
+    {
+      "paragraph_number": 39,
+      "role": "body",
+      "content": "Requirement in v3.0"
+    },
+    {
+      "paragraph_number": 40,
+      "role": "body",
+      "content": "PII masking"
+    },
+    {
+      "paragraph_number": 41,
+      "role": "body",
+      "content": "Required before non-essential LLM prompts and observability traces"
+    },
+    {
+      "paragraph_number": 42,
+      "role": "body",
+      "content": "Privileged access review"
+    },
+    {
+      "paragraph_number": 43,
+      "role": "body",
+      "content": "Quarterly"
+    },
+    {
+      "paragraph_number": 44,
+      "role": "body",
+      "content": "AI trace redaction"
+    },
+    {
+      "paragraph_number": 45,
+      "role": "body",
+      "content": "Required before external tracing"
+    },
+    {
+      "paragraph_number": 46,
+      "role": "body",
+      "content": "Audit retention"
+    },
+    {
+      "paragraph_number": 47,
+      "role": "body",
+      "content": "7 years"
+    },
+    {
+      "paragraph_number": 48,
+      "role": "body",
+      "content": "Control principle: live operational status comes from governed source-system tools; policy documents provide rules, required actions, and escalation criteria."
+    },
+    {
+      "paragraph_number": 49,
+      "role": "sectionHeading",
+      "content": "Required Evidence and Data Controls"
+    },
+    {
+      "paragraph_number": 50,
+      "role": "body",
+      "content": "Area"
+    },
+    {
+      "paragraph_number": 51,
+      "role": "body",
+      "content": "Minimum production requirement"
+    },
+    {
+      "paragraph_number": 52,
+      "role": "body",
+      "content": "Identity"
+    },
+    {
+      "paragraph_number": 53,
+      "role": "body",
+      "content": "Authenticated user, role, business unit, and permitted account/client scope"
+    },
+    {
+      "paragraph_number": 54,
+      "role": "body",
+      "content": "Source data"
+    },
+    {
+      "paragraph_number": 55,
+      "role": "body",
+      "content": "Current timestamp, source-system identifier, validated business keys, and freshness status"
+    },
+    {
+      "paragraph_number": 56,
+      "role": "body",
+      "content": "Policy evidence"
+    },
+    {
+      "paragraph_number": 57,
+      "role": "body",
+      "content": "Policy ID, applicable version, effective range, section, and citation location"
+    },
+    {
+      "paragraph_number": 58,
+      "role": "body",
+      "content": "AI processing"
+    },
+    {
+      "paragraph_number": 59,
+      "role": "body",
+      "content": "PII masking result, prompt version, model/deployment, retrieval set, and confidence signals"
+    },
+    {
+      "paragraph_number": 60,
+      "role": "body",
+      "content": "Audit"
+    },
+    {
+      "paragraph_number": 61,
+      "role": "body",
+      "content": "Trace ID, tool-call records, response outcome, escalation decision, and reviewer where needed"
+    },
+    {
+      "paragraph_number": 62,
+      "role": "sectionHeading",
+      "content": "Key Definitions"
+    },
+    {
+      "paragraph_number": 63,
+      "role": "body",
+      "content": "Applicable version: the authorized version active for the business date. Governed tool: an approved interface that validates identity, permissions, parameters, and audit evidence before reading an operational system. Material case: an item whose amount, age, deadline, client impact, repeated occurrence, or regulatory sensitivity requires enhanced review."
+    },
+    {
+      "paragraph_number": 66,
+      "role": "sectionHeading",
+      "content": "Operational Control Flow"
+    },
+    {
+      "paragraph_number": 67,
+      "role": "body",
+      "content": "Authenticate and authorize"
+    },
+    {
+      "paragraph_number": 68,
+      "role": "body",
+      "content": ">"
+    },
+    {
+      "paragraph_number": 69,
+      "role": "body",
+      "content": "Retrieve live operational data"
+    },
+    {
+      "paragraph_number": 70,
+      "role": "body",
+      "content": ">"
+    },
+    {
+      "paragraph_number": 71,
+      "role": "body",
+      "content": "Resolve current policy version"
+    },
+    {
+      "paragraph_number": 72,
+      "role": "body",
+      "content": "> Validate evidence and risk > Respond or escalate"
+    },
+    {
+      "paragraph_number": 73,
+      "role": "sectionHeading",
+      "content": "Roles and Responsibilities"
+    },
+    {
+      "paragraph_number": 74,
+      "role": "body",
+      "content": "Role"
+    },
+    {
+      "paragraph_number": 75,
+      "role": "body",
+      "content": "Primary responsibility"
+    },
+    {
+      "paragraph_number": 76,
+      "role": "body",
+      "content": "Operations Analyst"
+    },
+    {
+      "paragraph_number": 77,
+      "role": "body",
+      "content": "Investigate assigned items, validate evidence, document actions, and escalate when required."
+    },
+    {
+      "paragraph_number": 78,
+      "role": "body",
+      "content": "Team Lead / Checker"
+    },
+    {
+      "paragraph_number": 79,
+      "role": "body",
+      "content": "Review sensitive or high-value actions, validate policy use, and approve controlled overrides."
+    },
+    {
+      "paragraph_number": 80,
+      "role": "body",
+      "content": "Policy Control"
+    },
+    {
+      "paragraph_number": 81,
+      "role": "body",
+      "content": "Maintain versions, effective dates, interpretation guidance, and formal exceptions."
+    },
+    {
+      "paragraph_number": 82,
+      "role": "body",
+      "content": "AI / Technology Platform"
+    },
+    {
+      "paragraph_number": 83,
+      "role": "body",
+      "content": "Maintain access controls, approved integrations, retrieval quality, monitoring, and failure handling."
+    },
+    {
+      "paragraph_number": 84,
+      "role": "body",
+      "content": "Information Security"
+    },
+    {
+      "paragraph_number": 85,
+      "role": "body",
+      "content": "Define masking, secrets, privileged access, incident response, and monitoring requirements."
+    },
+    {
+      "paragraph_number": 86,
+      "role": "sectionHeading",
+      "content": "Audit, Privacy, and AI Requirements"
+    },
+    {
+      "paragraph_number": 87,
+      "role": "body",
+      "content": "- Record policy ID, version, page or section, query timestamp, user identity, access scope, and decision outcome."
+    },
+    {
+      "paragraph_number": 88,
+      "role": "body",
+      "content": "- For live lookups, record MCP tool name, approved parameters, authorization result, response timestamp, and source-system reference."
+    },
+    {
+      "paragraph_number": 89,
+      "role": "body",
+      "content": "- Mask PII and confidential fields in prompts and traces unless the value is explicitly required and permitted for the task."
+    },
+    {
+      "paragraph_number": 90,
+      "role": "body",
+      "content": "- Scope semantic-cache entries by user authorization, business unit, policy version, and effective date; invalidate them when policy status changes."
+    },
+    {
+      "paragraph_number": 91,
+      "role": "body",
+      "content": "- Route conflicting evidence, unavailable tools, restricted access, and low-confidence or high-risk cases to human review."
+    },
+    {
+      "paragraph_number": 92,
+      "role": "sectionHeading",
+      "content": "Test Scenarios"
+    },
+    {
+      "paragraph_number": 93,
+      "role": "body",
+      "content": "Scenario"
+    },
+    {
+      "paragraph_number": 94,
+      "role": "body",
+      "content": "Expected behavior"
+    },
+    {
+      "paragraph_number": 95,
+      "role": "body",
+      "content": "Older policy chunk ranks higher"
+    },
+    {
+      "paragraph_number": 96,
+      "role": "body",
+      "content": "Use the applicable ACTIVE version and suppress superseded guidance."
+    },
+    {
+      "paragraph_number": 97,
+      "role": "body",
+      "content": "Future policy has highest version"
+    },
+    {
+      "paragraph_number": 98,
+      "role": "body",
+      "content": "Do not use it before its effective date."
+    },
+    {
+      "paragraph_number": 99,
+      "role": "body",
+      "content": "User lacks account permission"
+    },
+    {
+      "paragraph_number": 100,
+      "role": "body",
+      "content": "Return an authorization-safe response without restricted details."
+    },
+    {
+      "paragraph_number": 101,
+      "role": "body",
+      "content": "Cached answer uses older version"
+    },
+    {
+      "paragraph_number": 102,
+      "role": "body",
+      "content": "Bypass or invalidate cache and regenerate with current policy."
+    },
+    {
+      "paragraph_number": 103,
+      "role": "body",
+      "content": "Live status differs from document example"
+    },
+    {
+      "paragraph_number": 104,
+      "role": "body",
+      "content": "Use governed live data for status and policy only for rules."
+    },
+    {
+      "paragraph_number": 105,
+      "role": "sectionHeading",
+      "content": "Monitoring and Acceptance Criteria"
+    },
+    {
+      "paragraph_number": 106,
+      "role": "body",
+      "content": "Control metric"
+    },
+    {
+      "paragraph_number": 107,
+      "role": "body",
+      "content": "Expected production behavior"
+    },
+    {
+      "paragraph_number": 108,
+      "role": "body",
+      "content": "Policy-version accuracy"
+    },
+    {
+      "paragraph_number": 109,
+      "role": "body",
+      "content": "Current applicable version selected for the business date; future and superseded versions excluded"
+    },
+    {
+      "paragraph_number": 110,
+      "role": "body",
+      "content": "Retrieval quality"
+    },
+    {
+      "paragraph_number": 111,
+      "role": "body",
+      "content": "Relevant section appears in top results and citations match returned evidence"
+    },
+    {
+      "paragraph_number": 112,
+      "role": "body",
+      "content": "Tool governance"
+    },
+    {
+      "paragraph_number": 113,
+      "role": "body",
+      "content": "Every live lookup is authorized, parameter-validated, rate-limited, and auditable"
+    },
+    {
+      "paragraph_number": 114,
+      "role": "body",
+      "content": "Privacy"
+    },
+    {
+      "paragraph_number": 115,
+      "role": "body",
+      "content": "Sensitive values are minimized and redacted from cache, prompts, traces, and logs"
+    },
+    {
+      "paragraph_number": 116,
+      "role": "body",
+      "content": "Response quality"
+    },
+    {
+      "paragraph_number": 117,
+      "role": "body",
+      "content": "Answer is grounded, cites evidence, distinguishes live facts from policy, and escalates uncertainty"
+    },
+    {
+      "paragraph_number": 118,
+      "role": "sectionHeading",
+      "content": "Implementation Notes for the AI Copilot"
+    },
+    {
+      "paragraph_number": 119,
+      "role": "body",
+      "content": "The Retrieval Agent searches approved policy content using hybrid retrieval and metadata filters. The Policy Validation Agent confirms status, effective dates, and conflicts. Operational agents use MCP tools for current records. The Orchestrator aggregates all agent outputs and sends one structured evidence package to the Response Module for grounded answer generation, citations, masking, confidence assessment, and escalation."
+    },
+    {
+      "paragraph_number": 120,
+      "role": "body",
+      "content": "End of controlled synthetic document. Structured for OCR/layout extraction, document-aware chunking, metadata enrichment, version-aware retrieval, citations, PII controls, semantic-cache invalidation, and policy validation."
+    }
+  ],
+  "tables": [
+    {
+      "table_number": 1,
+      "row_count": 6,
+      "column_count": 4,
+      "cells": [
+        {
+          "row_index": 0,
+          "column_index": 0,
+          "content": "Policy ID",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 0,
+          "column_index": 1,
+          "content": "POL-SEC-001",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 0,
+          "column_index": 2,
+          "content": "Version",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 0,
+          "column_index": 3,
+          "content": "3.0",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 1,
+          "column_index": 0,
+          "content": "Status",
+          "kind": null
+        },
+        {
+          "row_index": 1,
+          "column_index": 1,
+          "content": "ACTIVE",
+          "kind": null
+        },
+        {
+          "row_index": 1,
+          "column_index": 2,
+          "content": "Effective Date",
+          "kind": null
+        },
+        {
+          "row_index": 1,
+          "column_index": 3,
+          "content": "2026-01-01",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 0,
+          "content": "Review / End Date",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 1,
+          "content": "2026-09-30",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 2,
+          "content": "Supersedes",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 3,
+          "content": "2.0",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 0,
+          "content": "Policy Owner",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 1,
+          "content": "Information Security and Data Governance",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 2,
+          "content": "Business Unit",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 3,
+          "content": "ENTERPRISE",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 0,
+          "content": "Jurisdiction",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 1,
+          "content": "GLOBAL",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 2,
+          "content": "Classification",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 3,
+          "content": "INTERNAL CONFIDENTIAL",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 0,
+          "content": "Access Scope",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 1,
+          "content": "ROLE_BASED",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 2,
+          "content": "Synthetic Document",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 3,
+          "content": "YES",
+          "kind": null
+        }
+      ]
+    },
+    {
+      "table_number": 2,
+      "row_count": 5,
+      "column_count": 2,
+      "cells": [
+        {
+          "row_index": 0,
+          "column_index": 0,
+          "content": "Control",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 0,
+          "column_index": 1,
+          "content": "Requirement in v3.0",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 1,
+          "column_index": 0,
+          "content": "PII masking",
+          "kind": null
+        },
+        {
+          "row_index": 1,
+          "column_index": 1,
+          "content": "Required before non-essential LLM prompts and observability traces",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 0,
+          "content": "Privileged access review",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 1,
+          "content": "Quarterly",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 0,
+          "content": "AI trace redaction",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 1,
+          "content": "Required before external tracing",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 0,
+          "content": "Audit retention",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 1,
+          "content": "7 years",
+          "kind": null
+        }
+      ]
+    },
+    {
+      "table_number": 3,
+      "row_count": 6,
+      "column_count": 2,
+      "cells": [
+        {
+          "row_index": 0,
+          "column_index": 0,
+          "content": "Area",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 0,
+          "column_index": 1,
+          "content": "Minimum production requirement",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 1,
+          "column_index": 0,
+          "content": "Identity",
+          "kind": null
+        },
+        {
+          "row_index": 1,
+          "column_index": 1,
+          "content": "Authenticated user, role, business unit, and permitted account/client scope",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 0,
+          "content": "Source data",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 1,
+          "content": "Current timestamp, source-system identifier, validated business keys, and freshness status",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 0,
+          "content": "Policy evidence",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 1,
+          "content": "Policy ID, applicable version, effective range, section, and citation location",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 0,
+          "content": "AI processing",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 1,
+          "content": "PII masking result, prompt version, model/deployment, retrieval set, and confidence signals",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 0,
+          "content": "Audit",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 1,
+          "content": "Trace ID, tool-call records, response outcome, escalation decision, and reviewer where needed",
+          "kind": null
+        }
+      ]
+    },
+    {
+      "table_number": 4,
+      "row_count": 6,
+      "column_count": 2,
+      "cells": [
+        {
+          "row_index": 0,
+          "column_index": 0,
+          "content": "Role",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 0,
+          "column_index": 1,
+          "content": "Primary responsibility",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 1,
+          "column_index": 0,
+          "content": "Operations Analyst",
+          "kind": null
+        },
+        {
+          "row_index": 1,
+          "column_index": 1,
+          "content": "Investigate assigned items, validate evidence, document actions, and escalate when required.",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 0,
+          "content": "Team Lead / Checker",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 1,
+          "content": "Review sensitive or high-value actions, validate policy use, and approve controlled overrides.",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 0,
+          "content": "Policy Control",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 1,
+          "content": "Maintain versions, effective dates, interpretation guidance, and formal exceptions.",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 0,
+          "content": "AI / Technology Platform",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 1,
+          "content": "Maintain access controls, approved integrations, retrieval quality, monitoring, and failure handling.",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 0,
+          "content": "Information Security",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 1,
+          "content": "Define masking, secrets, privileged access, incident response, and monitoring requirements.",
+          "kind": null
+        }
+      ]
+    },
+    {
+      "table_number": 5,
+      "row_count": 6,
+      "column_count": 2,
+      "cells": [
+        {
+          "row_index": 0,
+          "column_index": 0,
+          "content": "Scenario",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 0,
+          "column_index": 1,
+          "content": "Expected behavior",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 1,
+          "column_index": 0,
+          "content": "Older policy chunk ranks higher",
+          "kind": null
+        },
+        {
+          "row_index": 1,
+          "column_index": 1,
+          "content": "Use the applicable ACTIVE version and suppress superseded guidance.",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 0,
+          "content": "Future policy has highest version",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 1,
+          "content": "Do not use it before its effective date.",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 0,
+          "content": "User lacks account permission",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 1,
+          "content": "Return an authorization-safe response without restricted details.",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 0,
+          "content": "Cached answer uses older version",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 1,
+          "content": "Bypass or invalidate cache and regenerate with current policy.",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 0,
+          "content": "Live status differs from document example",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 1,
+          "content": "Use governed live data for status and policy only for rules.",
+          "kind": null
+        }
+      ]
+    },
+    {
+      "table_number": 6,
+      "row_count": 6,
+      "column_count": 2,
+      "cells": [
+        {
+          "row_index": 0,
+          "column_index": 0,
+          "content": "Control metric",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 0,
+          "column_index": 1,
+          "content": "Expected production behavior",
+          "kind": "columnHeader"
+        },
+        {
+          "row_index": 1,
+          "column_index": 0,
+          "content": "Policy-version accuracy",
+          "kind": null
+        },
+        {
+          "row_index": 1,
+          "column_index": 1,
+          "content": "Current applicable version selected for the business date; future and superseded versions excluded",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 0,
+          "content": "Retrieval quality",
+          "kind": null
+        },
+        {
+          "row_index": 2,
+          "column_index": 1,
+          "content": "Relevant section appears in top results and citations match returned evidence",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 0,
+          "content": "Tool governance",
+          "kind": null
+        },
+        {
+          "row_index": 3,
+          "column_index": 1,
+          "content": "Every live lookup is authorized, parameter-validated, rate-limited, and auditable",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 0,
+          "content": "Privacy",
+          "kind": null
+        },
+        {
+          "row_index": 4,
+          "column_index": 1,
+          "content": "Sensitive values are minimized and redacted from cache, prompts, traces, and logs",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 0,
+          "content": "Response quality",
+          "kind": null
+        },
+        {
+          "row_index": 5,
+          "column_index": 1,
+          "content": "Answer is grounded, cites evidence, distinguishes live facts from policy, and escalates uncertainty",
+          "kind": null
+        }
+      ]
+    }
+  ]
+}
